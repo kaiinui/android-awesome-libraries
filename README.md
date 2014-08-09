@@ -277,6 +277,10 @@ message.set("Hello MVVM!"); // will change the model and view
 UI
 --
 
+- [SuperToasts](https://github.com/JohnPersano/SuperToasts)
+
+![](https://camo.githubusercontent.com/b52711b589229453cde3c15cebc921285f01d9b8/687474703a2f2f69313031362e70686f746f6275636b65742e636f6d2f616c62756d732f61663238342f547572626f70776e65642f7375706572746f617374735f67726f75705f73637265656e73686f745f74776f2e706e67)
+
 - [PhotoView](https://github.com/chrisbanes/PhotoView) - ImageView for Android that supports zooming, by various touch gestures.
 
 ![](https://camo.githubusercontent.com/cf5bfb6d896604aa9156e3e1beee89e0754de7db/68747470733a2f2f7261772e6769746875622e636f6d2f636872697362616e65732f50686f746f566965772f6d61737465722f6865616465725f677261706869632e706e67)
@@ -304,6 +308,14 @@ UI
 - [ExtendedCalendarView](https://github.com/tyczj/ExtendedCalendarView)
 
 ![](https://raw.githubusercontent.com/tyczj/ExtendedCalendarView/master/ExtendedCalendarView/Screenshot_2014-04-04-18-11-16.png)
+
+- [StickyListHeaders](https://github.com/emilsjolander/StickyListHeaders)
+
+![](https://github.com/emilsjolander/StickyListHeaders/raw/master/demo.gif)
+
+- [StickyGridHeaders](https://github.com/TonicArtos/StickyGridHeaders)
+
+![](https://camo.githubusercontent.com/90b57e9383704c400706545225d439e057c6fcc0/687474703a2f2f342e62702e626c6f6773706f742e636f6d2f2d535f4262685758367754592f55517057306377554745492f41414141414141414776552f7a7a4a586a2d50635662592f73313630302f73637265656e2d6c616e6473636170652d736d616c6c65722e706e67)
 
 Album handling
 ---
