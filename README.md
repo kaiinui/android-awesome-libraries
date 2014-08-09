@@ -233,6 +233,9 @@ UI
 
 ![](https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/screen.png)
 
+- [Android-Rate](https://github.com/hotchemi/Android-Rate)
+
+![](https://camo.githubusercontent.com/39978e2edcf111ea1fa024ed66558da961926694/687474703a2f2f6769667a6f2e6e65742f4249356532714d4a5669302e676966)
 
 Album handling
 ---
