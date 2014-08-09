@@ -6,6 +6,18 @@ Support
 
 - Android Support Annotations
 
+```java
+private void displayName(@NonNull String name) {
+  // name can not be null
+}
+```
+
+```java
+private void receiveDrawableRes(@DrawableRes int resId) {
+  // resId must be Drawable Resource ID
+}
+```
+
 Network
 ---
 
