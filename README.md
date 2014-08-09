@@ -16,6 +16,7 @@ Index
 - [UI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#ui)
 - [Album Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#album-handling)
 - [Rx](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rx)
+- [Promise]()
 - [Testing](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#testing)
 
 Support
@@ -279,6 +280,19 @@ UI
 
 ![](https://camo.githubusercontent.com/39978e2edcf111ea1fa024ed66558da961926694/687474703a2f2f6769667a6f2e6e65742f4249356532714d4a5669302e676966)
 
+- [GlassActionBar](https://github.com/ManuelPeinado/GlassActionBar)
+
+![](https://camo.githubusercontent.com/01c80fb941f2ba07f6d9d26d80dd4792a79127d4/68747470733a2f2f7261772e6769746875622e636f6d2f4d616e75656c5065696e61646f2f476c617373416374696f6e4261722f6d61737465722f6172742f726561646d655f7069632e706e67)
+
+- [emojicon](https://github.com/rockerhieu/emojicon)
+
+![](https://github.com/rockerhieu/emojicon/raw/master/images/sample.jpg)
+
+- [IonIconView](https://github.com/MarsVard/IonIconView)
+
+![](https://camo.githubusercontent.com/b34ffde14cb738fb283300fe5694e800e22ac783/68747470733a2f2f7261772e6769746875622e636f6d2f4d617273566172642f496f6e49636f6e566965772f6d61737465722f66616e637961642e706e67)
+
+
 Album handling
 ---
 
@@ -299,6 +313,33 @@ Subscription sub = Observable.from(1, 2, 3, 4, 5)
     .subscribeOn(Schedulers.newThread())
     .observeOn(AndroidSchedulers.mainThread())
     .subscribe(observer);
+```
+
+Promise
+---
+
+- [JDeffered](https://github.com/jdeferred/jdeferred)
+
+```java
+Deferred deferred = new DeferredObject();
+Promise promise = deferred.promise();
+promise.done(new DoneCallback() {
+  public void onDone(Object result) {
+    ...
+  }
+}).fail(new FailCallback() {
+  public void onFail(Object rejection) {
+    ...
+  }
+}).progress(new ProgressCallback() {
+  public void onProgress(Object progress) {
+    ...
+  }
+}).always(new AlwaysCallback() {
+  public void onAlways(State state, Object result, Object rejection) {
+    ...
+  }
+});
 ```
 
 Testing
