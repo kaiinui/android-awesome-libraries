@@ -1,13 +1,42 @@
 android-awesome-libraries
 =========================
 
+Support
+---
+
+- Android Support Annotations
+
+DI
+---
+
+- ButterKnife https://github.com/JakeWharton/butterknife
+
+```java
+@InjectView(R.id.user) EditText username;
+@InjectView(R.id.pass) EditText password;
+
+@OnClick(R.id.submit) void submit() {
+  // TODO call server...
+}
+```
+
+- Dagger http://square.github.io/dagger/
+
+```java
+@Inject
+Thermosiphon(Heater heater) {
+  this.heater = heater;
+}
+```
+
+- RoboGuice
+
 Testing
 ---
 
 ### Unit
 
 - JUnit
-
 - Robospock http://robospock.org/
 
 ```groovy
