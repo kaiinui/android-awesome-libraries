@@ -42,6 +42,29 @@ mButton.setOnClickListener((View v) -> {
 });
 ```
 
+- [icepick](https://github.com/frankiesardo/icepick)
+
+```java
+@Icicle String username; // This will be automatically saved and restored
+
+@Override public void onCreate(Bundle savedInstanceState) {
+  super.onCreate(savedInstanceState);
+  Icepick.restoreInstanceState(this, savedInstanceState);
+}
+
+@Override public void onSaveInstanceState(Bundle outState) {
+  super.onSaveInstanceState(outState);
+  Icepick.saveInstanceState(this, outState);
+}
+```
+
+- [ObjectCache](https://github.com/iainconnor/ObjectCache)
+
+```java
+MyObject myObject = new MyObject("foo");
+cacheManager.put("myKey", myObject);
+```
+
 Network
 ---
 
