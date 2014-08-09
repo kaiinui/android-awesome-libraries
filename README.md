@@ -61,6 +61,23 @@ mButton.setOnClickListener((View v) -> {
 }
 ```
 
+- [Michelangelo](https://github.com/RomainPiel/Michelangelo)
+
+```java
+@InflateLayout(R.layout.custom_view)
+public class MyCustomView extends FrameLayout {
+
+    public MyCustomView(Context context) {
+        super(context);
+    }
+
+    @AfterInflate
+    public void updateTextView() {
+        ((TextView) findViewById(R.id.my_text_view)).setText("hey!");
+    }
+}
+```
+
 Network
 ---
 
