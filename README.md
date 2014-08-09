@@ -4,7 +4,7 @@ android-awesome-libraries
 Support
 ---
 
-- [Android Device Compatibility](https://github.com/mixi-inc/Android-Device-Compatibility)
+- [Android Device Compatibility](https://github.com/mixi-inc/Android-Device-Compatibility) - Compatibility package project for android device difference.
 
 - Android Support Annotations
 
@@ -102,7 +102,9 @@ Album handling
 ---
 
 - [DeviceAlbums](https://github.com/nohana/DeviceAlbums) (Compatibility library for dealing with various device photo albums.) 
-- 
+- [Laevatein](https://github.com/nohana/Laevatein)
+
+![](https://raw.githubusercontent.com/nohana/Laevatein/master/documents/ss-1.png)
 
 DI
 ---
