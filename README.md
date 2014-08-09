@@ -212,6 +212,15 @@ CharSequence greeting = Phrase.greeting()
     .build(this);
 ```
 
+- [GPUImage for Android](https://github.com/CyberAgent/android-gpuimage#gpuimage-for-android)
+
+```java
+mGPUImage = new GPUImage(this);
+mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
+mGPUImage.setImage(imageUri); // this loads image on the current thread, should be run in a thread
+mGPUImage.setFilter(new GPUImageSepiaFilter());
+```
+
 - [Android Priority Job Queue](https://github.com/path/android-priority-jobqueue)
 
 ```java
@@ -292,6 +301,9 @@ UI
 
 ![](https://camo.githubusercontent.com/b34ffde14cb738fb283300fe5694e800e22ac783/68747470733a2f2f7261772e6769746875622e636f6d2f4d617273566172642f496f6e49636f6e566965772f6d61737465722f66616e637961642e706e67)
 
+- [ExtendedCalendarView](https://github.com/tyczj/ExtendedCalendarView)
+
+![](https://raw.githubusercontent.com/tyczj/ExtendedCalendarView/master/ExtendedCalendarView/Screenshot_2014-04-04-18-11-16.png)
 
 Album handling
 ---
