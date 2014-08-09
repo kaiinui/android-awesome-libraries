@@ -6,6 +6,42 @@ Support
 
 - Android Support Annotations
 
+Network
+---
+
+- Volley https://android.googlesource.com/platform/frameworks/volley
+
+```java
+RequestQueue queue = Volley.newRequestQueue(this);
+String url = "SOMEURL";
+
+JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+  @Override
+  public void onResponse(JSONObject response) {
+    // TODO
+  }
+}, new Response.ErrorListener() {
+  @Override
+  public void onErrorResponse(VolleyError error) {
+    // TODO
+  }
+});
+
+queue.add(jsObjRequest);
+```
+
+REST Client
+---
+
+- Retrofit http://square.github.io/retrofit/
+
+```java
+public interface GitHubService {
+  @GET("/users/{user}/repos")
+  List<Repo> listRepos(@Path("user") String user);
+}
+```
+
 Network Image Handling
 ---
 
