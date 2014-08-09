@@ -7,6 +7,7 @@ Index
 - [Support](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#support)
 - [Network](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network)
 - [Rest Client](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rest-client)
+- [Object Serialization](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#object-serialization)
 - [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network-image-handling)
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#event-pubsub)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#utility)
@@ -93,6 +94,17 @@ public interface GitHubService {
   @GET("/users/{user}/repos")
   List<Repo> listRepos(@Path("user") String user);
 }
+```
+
+Object Serialization
+---
+
+- [Gson](https://code.google.com/p/google-gson/)
+
+```java
+BagOfPrimitives obj = new BagOfPrimitives();
+Gson gson = new Gson();
+String json = gson.toJson(obj);  
 ```
 
 Network Image Handling
