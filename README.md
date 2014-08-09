@@ -161,6 +161,18 @@ Album handling
 
 - RoboGuice
 
+Rx
+---
+
+- [RxJava](https://github.com/Netflix/RxJava)
+
+```java
+Subscription sub = Observable.from(1, 2, 3, 4, 5)
+    .subscribeOn(Schedulers.newThread())
+    .observeOn(AndroidSchedulers.mainThread())
+    .subscribe(observer);
+```
+
 Testing
 ---
 
