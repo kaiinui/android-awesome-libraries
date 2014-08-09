@@ -4,6 +4,8 @@ android-awesome-libraries
 Support
 ---
 
+- [Android Device Compatibility](https://github.com/mixi-inc/Android-Device-Compatibility)
+
 - Android Support Annotations
 
 ```java
@@ -21,7 +23,7 @@ private void receiveDrawableRes(@DrawableRes int resId) {
 Network
 ---
 
-- Volley https://android.googlesource.com/platform/frameworks/volley
+- [Volley](https://android.googlesource.com/platform/frameworks/volley)
 
 ```java
 RequestQueue queue = Volley.newRequestQueue(this);
@@ -45,7 +47,7 @@ queue.add(jsObjRequest);
 REST Client
 ---
 
-- Retrofit http://square.github.io/retrofit/
+- [Retrofit](http://square.github.io/retrofit/)
 
 ```java
 public interface GitHubService {
@@ -57,13 +59,13 @@ public interface GitHubService {
 Network Image Handling
 ---
 
-- Picasso http://square.github.io/picasso/
+- [Picasso](http://square.github.io/picasso/)
 
 ```java
 Picasso.with(context).load("http://i.imgur.com/DvpvklR.png").into(imageView);
 ```
 
-- Universal Image Loader https://github.com/nostra13/Android-Universal-Image-Loader
+- [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader)
 
 ```java
 // Load image, decode it to Bitmap and display Bitmap in ImageView (or any other view 
@@ -96,10 +98,16 @@ DisplayImageOptions options = new DisplayImageOptions.Builder()
         .build();
 ```
 
+Album handling
+---
+
+- [DeviceAlbums](https://github.com/nohana/DeviceAlbums) (Compatibility library for dealing with various device photo albums.) 
+- 
+
 DI
 ---
 
-- ButterKnife https://github.com/JakeWharton/butterknife
+- [ButterKnife](https://github.com/JakeWharton/butterknife)
 
 ```java
 @InjectView(R.id.user) EditText username;
@@ -110,7 +118,7 @@ DI
 }
 ```
 
-- Dagger http://square.github.io/dagger/
+- [Dagger](http://square.github.io/dagger/)
 
 ```java
 @Inject
@@ -127,7 +135,7 @@ Testing
 ### Unit
 
 - JUnit
-- Robospock http://robospock.org/
+- [Robospock](http://robospock.org/)
 
 ```groovy
 def "should display hello text"() {
@@ -148,7 +156,7 @@ def "should display hello text"() {
 
 ### Assert
 
-- AssertJ http://joel-costigliola.github.io/assertj/
+- [AssertJ](http://joel-costigliola.github.io/assertj/)
 
 ```java
 assertThat(frodo.getName()).isEqualTo("Frodo");
@@ -159,7 +167,7 @@ assertThat(sauron).isNotIn(fellowshipOfTheRing);
 
 ### Mock
 
-- Mockito https://code.google.com/p/mockito/
+- [Mockito](https://code.google.com/p/mockito/)
 
 ```java
 LinkedList mockedList = mock(LinkedList.class);
