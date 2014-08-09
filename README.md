@@ -198,6 +198,19 @@ public void onEvent(AnyEventType event) {
 Utility
 ---
 
+- [Paraphrase](https://github.com/JakeWharton/paraphrase)
+
+```xml
+<string name="greeting">Hello, {other_name}! My name is {my_name}.</string>
+```
+
+```java
+CharSequence greeting = Phrase.greeting()
+    .other_name("GitHub user")
+    .my_name("Jake Wharton")
+    .build(this);
+```
+
 - [Android Priority Job Queue](https://github.com/path/android-priority-jobqueue)
 
 ```java
