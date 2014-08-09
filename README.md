@@ -12,6 +12,7 @@ Index
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#event-pubsub)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#utility)
 - [DI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#di)
+- [View Model Binding](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#view-model-binding)
 - [UI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#ui)
 - [Album Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#album-handling)
 - [Rx](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rx)
@@ -220,6 +221,17 @@ DI
 Thermosiphon(Heater heater) {
   this.heater = heater;
 }
+```
+
+View Model Binding
+---
+
+- [android-binding](https://github.com/gueei/AndroidBinding)
+
+```java
+public StringObservable message = new StringObservable();
+...
+message.set("Hello MVVM!"); // will change the model and view
 ```
 
 UI
