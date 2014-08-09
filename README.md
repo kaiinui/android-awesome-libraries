@@ -150,6 +150,17 @@ Thermosiphon(Heater heater) {
 }
 ```
 
+UI
+--
+
+- [PhotoView](https://github.com/chrisbanes/PhotoView) - ImageView for Android that supports zooming, by various touch gestures.
+
+![](https://camo.githubusercontent.com/cf5bfb6d896604aa9156e3e1beee89e0754de7db/68747470733a2f2f7261772e6769746875622e636f6d2f636872697362616e65732f50686f746f566965772f6d61737465722f6865616465725f677261706869632e706e67)
+
+- [cardslib](https://github.com/gabrielemariotti/cardslib)
+
+![](https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/screen.png)
+
 
 Album handling
 ---
