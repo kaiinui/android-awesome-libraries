@@ -20,6 +20,14 @@ private void receiveDrawableRes(@DrawableRes int resId) {
 }
 ```
 
+- [Retrolabmda](https://github.com/orfjackal/retrolambda) - lambda suppor for android!
+
+```java
+mButton.setOnClickListener((View v) -> {
+    // do something here
+});
+```
+
 Network
 ---
 
