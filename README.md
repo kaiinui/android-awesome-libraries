@@ -98,13 +98,34 @@ DisplayImageOptions options = new DisplayImageOptions.Builder()
         .build();
 ```
 
-Album handling
+Event Pub/Sub
 ---
 
-- [DeviceAlbums](https://github.com/nohana/DeviceAlbums) (Compatibility library for dealing with various device photo albums.) 
-- [Laevatein](https://github.com/nohana/Laevatein)
+- [Otto](http://square.github.io/otto/)
 
-![](https://raw.githubusercontent.com/nohana/Laevatein/master/documents/ss-1.png)
+```java
+bus.post(new AnswerAvailableEvent(42));
+```
+
+```java
+@Subscribe public void answerAvailable(AnswerAvailableEvent event) {
+    // TODO: React to the event somehow!
+}
+```
+
+- [EventBus](https://github.com/greenrobot/EventBus)
+
+```java
+eventBus.post(event);
+```
+
+```java
+eventBus.register(this);
+public void onEvent(AnyEventType event) {
+    // TODO: React to the event!
+}
+```
+
 
 DI
 ---
@@ -128,6 +149,15 @@ Thermosiphon(Heater heater) {
   this.heater = heater;
 }
 ```
+
+
+Album handling
+---
+
+- [DeviceAlbums](https://github.com/nohana/DeviceAlbums) (Compatibility library for dealing with various device photo albums.) 
+- [Laevatein](https://github.com/nohana/Laevatein)
+
+![](https://raw.githubusercontent.com/nohana/Laevatein/master/documents/ss-1.png)
 
 - RoboGuice
 
