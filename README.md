@@ -9,6 +9,7 @@ Index
 - [Rest Client](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rest-client)
 - [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network-image-handling)
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#event-pubsub)
+- [Utility](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#utility)
 - [DI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#di)
 - [UI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#ui)
 - [Album Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#album-handling)
@@ -56,13 +57,6 @@ mButton.setOnClickListener((View v) -> {
   super.onSaveInstanceState(outState);
   Icepick.saveInstanceState(this, outState);
 }
-```
-
-- [ObjectCache](https://github.com/iainconnor/ObjectCache)
-
-```java
-MyObject myObject = new MyObject("foo");
-cacheManager.put("myKey", myObject);
 ```
 
 Network
@@ -171,6 +165,27 @@ public void onEvent(AnyEventType event) {
 }
 ```
 
+Utility
+---
+
+- [Android Priority Job Queue](https://github.com/path/android-priority-jobqueue)
+
+```java
+public void onSendClick() {
+    final String status = editText.getText().toString();
+    if(status.trim().length() > 0) {
+      jobManager.addJobInBackground(new PostTweetJob(status));
+      editText.setText("");
+    }
+}
+```
+
+- [ObjectCache](https://github.com/iainconnor/ObjectCache)
+
+```java
+MyObject myObject = new MyObject("foo");
+cacheManager.put("myKey", myObject);
+```
 
 DI
 ---
