@@ -48,7 +48,7 @@ mButton.setOnClickListener((View v) -> {
 });
 ```
 
-- [icepick](https://github.com/frankiesardo/icepick)
+- [icepick](https://github.com/frankiesardo/icepick) - Android Instance State made easy
 
 ```java
 @Icicle String username; // This will be automatically saved and restored
@@ -64,7 +64,7 @@ mButton.setOnClickListener((View v) -> {
 }
 ```
 
-- [Michelangelo](https://github.com/RomainPiel/Michelangelo)
+- [Michelangelo](https://github.com/RomainPiel/Michelangelo) - Layout inflation library for Android based on annotations
 
 ```java
 @InflateLayout(R.layout.custom_view)
@@ -250,7 +250,7 @@ public void onEvent(AnyEventType event) {
 Utility
 ---
 
-- [Paraphrase](https://github.com/JakeWharton/paraphrase)
+- [Paraphrase](https://github.com/JakeWharton/paraphrase) - compile-safe format string builders.
 
 ```xml
 <string name="greeting">Hello, {other_name}! My name is {my_name}.</string>
@@ -263,7 +263,7 @@ CharSequence greeting = Phrase.greeting()
     .build(this);
 ```
 
-- [esperandro](https://github.com/dkunzler/esperandro)
+- [esperandro](https://github.com/dkunzler/esperandro) - Easy SharedPreference Engine foR ANDROid
 
 ```java
 String superFancyPreference = preferences.superFancyPreferenceKey()
@@ -324,7 +324,7 @@ Thermosiphon(Heater heater) {
 View Model Binding
 ---
 
-- [android-binding](https://github.com/gueei/AndroidBinding)
+- [android-binding](https://github.com/gueei/AndroidBinding) - MVVM for Android
 
 ```java
 public StringObservable message = new StringObservable();
