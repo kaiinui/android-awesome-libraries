@@ -8,6 +8,7 @@ Index
 - [Network](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network)
 - [Rest Client](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rest-client)
 - [Object Serialization](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#object-serialization)
+- [Database](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#database)
 - [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network-image-handling)
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#event-pubsub)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#utility)
@@ -124,6 +125,17 @@ Object Serialization
 BagOfPrimitives obj = new BagOfPrimitives();
 Gson gson = new Gson();
 String json = gson.toJson(obj);  
+```
+
+Database
+---
+
+- [ActiveAndroid](https://github.com/pardom/ActiveAndroid)
+
+```java
+Category restaurants = new Category();
+restaurants.name = "Restaurants";
+restaurants.save();
 ```
 
 Network Image Handling
