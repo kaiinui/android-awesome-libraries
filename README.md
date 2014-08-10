@@ -19,7 +19,7 @@ Index
 - [Rx](https://github.com/kaiinui/android-awesome-libraries/#rx)
 - [Promise](https://github.com/kaiinui/android-awesome-libraries/#promise)
 - [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries/#debug-utility)
-- [Testing](https://github.com/kaiinui/android-awesome-libraries/d#testing)
+- [Testing](https://github.com/kaiinui/android-awesome-libraries/#testing)
 
 Support
 ---
