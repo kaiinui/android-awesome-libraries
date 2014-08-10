@@ -343,6 +343,10 @@ UI
 
 ![](https://camo.githubusercontent.com/cf5bfb6d896604aa9156e3e1beee89e0754de7db/68747470733a2f2f7261772e6769746875622e636f6d2f636872697362616e65732f50686f746f566965772f6d61737465722f6865616465725f677261706869632e706e67)
 
+- [SlidingMenu](https://github.com/jfeinstein10/SlidingMenu)
+
+![](https://lh4.ggpht.com/MSBdACpt_6MmrSiGA5f2GrBfmHVCQP4j3n1TUNdN8gKjOfsOqyEe6ELnLXmJi4gRMA=h900-rw)
+
 - [cardslib](https://github.com/gabrielemariotti/cardslib)
 
 ![](https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/screen.png)
