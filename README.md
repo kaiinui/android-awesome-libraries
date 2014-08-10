@@ -4,22 +4,22 @@ android-awesome-libraries
 Index
 ---
 
-- [Support](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#support)
-- [Network](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network)
-- [Rest Client](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rest-client)
-- [Object Serialization](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#object-serialization)
-- [Database](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#database)
-- [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#network-image-handling)
-- [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#event-pubsub)
-- [Utility](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#utility)
-- [DI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#di)
-- [View Model Binding](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#view-model-binding)
-- [UI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#ui)
-- [Album Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#album-handling)
-- [Rx](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rx)
-- [Promise](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#promise)
-- [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#debug-utility)
-- [Testing](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#testing)
+- [Support](https://github.com/kaiinui/android-awesome-libraries/#support)
+- [Network](https://github.com/kaiinui/android-awesome-libraries/#network)
+- [Rest Client](https://github.com/kaiinui/android-awesome-libraries/#rest-client)
+- [Object Serialization](https://github.com/kaiinui/android-awesome-libraries/#object-serialization)
+- [Database](https://github.com/kaiinui/android-awesome-libraries/#database)
+- [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries/#network-image-handling)
+- [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries/#event-pubsub)
+- [Utility](https://github.com/kaiinui/android-awesome-libraries/#utility)
+- [DI](https://github.com/kaiinui/android-awesome-libraries/#di)
+- [View Model Binding](https://github.com/kaiinui/android-awesome-libraries/#view-model-binding)
+- [UI](https://github.com/kaiinui/android-awesome-libraries/#ui)
+- [Album Handling](https://github.com/kaiinui/android-awesome-libraries/#album-handling)
+- [Rx](https://github.com/kaiinui/android-awesome-libraries/#rx)
+- [Promise](https://github.com/kaiinui/android-awesome-libraries/#promise)
+- [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries/#debug-utility)
+- [Testing](https://github.com/kaiinui/android-awesome-libraries/d#testing)
 
 Support
 ---
