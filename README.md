@@ -240,13 +240,11 @@ CharSequence greeting = Phrase.greeting()
     .build(this);
 ```
 
-- [GPUImage for Android](https://github.com/CyberAgent/android-gpuimage#gpuimage-for-android)
+- [esperandro](https://github.com/dkunzler/esperandro)
 
 ```java
-mGPUImage = new GPUImage(this);
-mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
-mGPUImage.setImage(imageUri); // this loads image on the current thread, should be run in a thread
-mGPUImage.setFilter(new GPUImageSepiaFilter());
+String superFancyPreference = preferences.superFancyPreferenceKey()
+preferences.superFancyPreferenceKey(superFancyPreference)
 ```
 
 - [Android Priority Job Queue](https://github.com/path/android-priority-jobqueue)
@@ -266,6 +264,15 @@ public void onSendClick() {
 ```java
 MyObject myObject = new MyObject("foo");
 cacheManager.put("myKey", myObject);
+```
+
+- [GPUImage for Android](https://github.com/CyberAgent/android-gpuimage#gpuimage-for-android)
+
+```java
+mGPUImage = new GPUImage(this);
+mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
+mGPUImage.setImage(imageUri); // this loads image on the current thread, should be run in a thread
+mGPUImage.setFilter(new GPUImageSepiaFilter());
 ```
 
 DI
@@ -367,6 +374,16 @@ UI
 
 ![](https://camo.githubusercontent.com/834cfd81ce764457db69dc023e1bd0adf0a8d00d/68747470733a2f2f7261772e6769746875622e636f6d2f756d616e6f2f416e64726f6964536c6964696e67557050616e656c44656d6f2f6d61737465722f736c6964696e67757070616e656c2e706e67)
 
+- [CWAC TouchListView](https://github.com/commonsguy/cwac-touchlist) - A Drag-and-Drop Capable ListView
+
+- [AdapterViewAnimator](https://github.com/SimonVT/adapterviewanimator)
+
+```java
+AdapterViewAnimator animator = new AdapterViewAnimator(adapterView);
+data.add(item);
+adapter.notifyDataSetChanged();
+animator.animate();
+```
 
 Album handling
 ---
@@ -464,6 +481,31 @@ assertThat(frodo.getName()).isEqualTo("Frodo");
 assertThat(frodo).isNotEqualTo(sauron)
                  .isIn(fellowshipOfTheRing);
 assertThat(sauron).isNotIn(fellowshipOfTheRing);
+```
+
+### Fixture
+
+- [RobotGirl](https://github.com/rejasupotaro/RobotGirl)
+
+```java
+Factory.define(
+        // This will guess the User class
+        new Definition(User.class) {
+            @Override
+            public Bundle set(Bundle attrs) {
+                attrs.putString("name", "John");
+                attrs.putBoolean("admin", false);
+                return attrs;
+            }
+        // This will use the User class (Adming would have been guessed)
+        }, new Definition(User.class, "admin") {
+            @Override
+            public Bundle set(Bundle attrs) {
+                attrs.putString("name", "Admin");
+                attrs.putBoolean("admin", true);
+                return attrs;
+            }
+        });
 ```
 
 ### Mock
