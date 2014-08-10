@@ -317,6 +317,29 @@ UI
 
 ![](https://camo.githubusercontent.com/90b57e9383704c400706545225d439e057c6fcc0/687474703a2f2f342e62702e626c6f6773706f742e636f6d2f2d535f4262685758367754592f55517057306377554745492f41414141414141414776552f7a7a4a586a2d50635662592f73313630302f73637265656e2d6c616e6473636170652d736d616c6c65722e706e67)
 
+- [Android Staggered Grid](https://github.com/etsy/AndroidStaggeredGrid)
+
+![](https://camo.githubusercontent.com/a243ad5c2788730c40fc1d348e5ed85adb59c484/687474703a2f2f662e636c2e6c792f6974656d732f327a31423059304d3047304f326b316c334a30332f5472656e64696e672e706e67)
+
+- [JazzyViewPager](https://github.com/jfeinstein10/JazzyViewPager)
+
+- [Android ViewPagerIndicator](https://github.com/JakeWharton/Android-ViewPagerIndicator)
+
+![](https://camo.githubusercontent.com/240ee2f3ebda5f20f73a5750c192a28743227816/68747470733a2f2f7261772e6769746875622e636f6d2f4a616b6557686172746f6e2f416e64726f69642d566965775061676572496e64696361746f722f6d61737465722f73616d706c652f73637265656e732e706e67)
+
+- [RoudedImageView](https://github.com/vinc3m1/RoundedImageView)
+
+![](https://camo.githubusercontent.com/ed1e075be6ed97fa9091d3702e9b96d3e85b7a35/68747470733a2f2f7261772e6769746875622e636f6d2f6d616b6572616d656e2f526f756e646564496d616765566965772f6d61737465722f73637265656e73686f742e706e67)
+
+- [Enhanced ListView](https://github.com/timroes/EnhancedListView)
+
+![](https://lh4.ggpht.com/0XgESm3N-SktOxUhmv4z_hxqkYqBWJJsiVVMS56XSDjmyZVUeXNr9Qe9c8KNF18iIfo=h310-rw)
+
+- [Android Sliding Up Panel](https://github.com/umano/AndroidSlidingUpPanel)
+
+![](https://camo.githubusercontent.com/834cfd81ce764457db69dc023e1bd0adf0a8d00d/68747470733a2f2f7261772e6769746875622e636f6d2f756d616e6f2f416e64726f6964536c6964696e67557050616e656c44656d6f2f6d61737465722f736c6964696e67757070616e656c2e706e67)
+
+
 Album handling
 ---
 
