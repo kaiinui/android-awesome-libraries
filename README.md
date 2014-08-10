@@ -105,6 +105,20 @@ JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, 
 queue.add(jsObjRequest);
 ```
 
+- [ion](https://github.com/koush/ion)
+
+```java
+Ion.with(context)
+.load("http://example.com/thing.json")
+.asJsonObject()
+.setCallback(new FutureCallback<JsonObject>() {
+   @Override
+    public void onCompleted(Exception e, JsonObject result) {
+        // do stuff with the result or error
+    }
+});
+```
+
 - [okhttp](https://github.com/square/okhttp) - An **HTTP+SPDY** client for Android and Java applications
 
 ```java
@@ -332,6 +346,10 @@ UI
 - [cardslib](https://github.com/gabrielemariotti/cardslib)
 
 ![](https://github.com/gabrielemariotti/cardslib/raw/master/demo/images/screen.png)
+
+- [CardsUI for Android](https://github.com/Androguide/cardsui-for-android)
+
+![](https://camo.githubusercontent.com/2c232fa27583ffa8e6cdf34c31509d1f0bbae3b4/687474703a2f2f696d616765736861636b2e75732f612f696d673833372f313336352f636172647367656e312e706e67)
 
 - [Android-Rate](https://github.com/hotchemi/Android-Rate)
 
