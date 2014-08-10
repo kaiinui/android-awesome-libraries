@@ -250,6 +250,18 @@ public void onEvent(AnyEventType event) {
 Utility
 ---
 
+- [Routable](https://github.com/usepropeller/routable-android) - routes.rb
+
+```java
+Router.sharedRouter().map("users/:id", UserActivity.class);
+Router.sharedRouter().map("users/new/:name/:zip", NewUserActivity.class);
+```
+
+```java
+Router.sharedRouter().open("users/16");
+Router.sharedRouter().open("users/new/Clay/94303");
+```
+
 - [Paraphrase](https://github.com/JakeWharton/paraphrase) - compile-safe format string builders.
 
 ```xml
