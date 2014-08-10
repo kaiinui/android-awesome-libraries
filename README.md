@@ -531,8 +531,40 @@ when(mockedList.get(0)).thenReturn("first");
 when(mockedList.get(1)).thenThrow(new RuntimeException());
 ```
 
-### UI
+### UI Test
 
-- Appium
-- Espresso
+- [Appium](http://appium.io/)
 
+- [Espresso](https://code.google.com/p/android-test-kit/wiki/Espresso)
+
+```java
+public void testSayHello() {
+  onView(withId(R.id.name_field))
+    .perform(typeText("Steve"));
+  onView(withId(R.id.greet_button))
+    .perform(click());
+  onView(withText("Hello Steve!"))
+    .check(matches(isDisplayed()));
+}
+```
+
+Contribution
+===
+
+Just fork & edit & send pull-request on GitHub!
+
+####Policy
+
+1. Official Website over GitHub Repository for links.
+2. Should put codes that reflects the library.
+3. For UI libraries, put demonstorations.
+
+And I am considering to ...
+
+1. Put reference links for each libraries.
+2. Separate pages for each categories.
+3. Separate UI categories.
+
+####Maintainer
+
+kaiinui (https://github.com/kaiinui)
