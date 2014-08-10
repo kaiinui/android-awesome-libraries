@@ -17,7 +17,8 @@ Index
 - [UI](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#ui)
 - [Album Handling](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#album-handling)
 - [Rx](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#rx)
-- [Promise]()
+- [Promise](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#promise)
+- [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#debug-utility)
 - [Testing](https://github.com/kaiinui/android-awesome-libraries/blob/master/README.md#testing)
 
 Support
@@ -102,6 +103,21 @@ JsonObjectRequest jsObjRequest = new JsonObjectRequest(Request.Method.GET, url, 
 });
 
 queue.add(jsObjRequest);
+```
+
+- [okhttp](https://github.com/square/okhttp) - An **HTTP+SPDY** client for Android and Java applications
+
+```java
+OkHttpClient client = new OkHttpClient();
+
+String run(String url) throws IOException {
+  Request request = new Request.Builder()
+      .url(url)
+      .build();
+
+  Response response = client.newCall(request).execute();
+  return response.body().string();
+}
 ```
 
 REST Client
@@ -401,6 +417,19 @@ promise.done(new DoneCallback() {
 });
 ```
 
+Debug Utility
+---
+
+- [Hugo](https://github.com/JakeWharton/hugo)
+
+```java
+@DebugLog
+public String getName(String first, String last) {
+  SystemClock.sleep(15); // Don't ever really do this!
+  return first + " " + last;
+}
+```
+
 Testing
 ---
 
@@ -428,7 +457,7 @@ def "should display hello text"() {
 
 ### Assert
 
-- [AssertJ](http://joel-costigliola.github.io/assertj/)
+- [AssertJ-Android](https://github.com/square/assertj-android)
 
 ```java
 assertThat(frodo.getName()).isEqualTo("Frodo");
