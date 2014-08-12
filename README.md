@@ -268,6 +268,36 @@ public void onEvent(AnyEventType event) {
 Utility
 ---
 
+- [Bolts](https://github.com/BoltsFramework/Bolts-Android) - a collection of low-level libraries designed to make developing mobile apps easier
+
+```java
+final ParseQuery<ParseObject> query = ParseQuery.getQuery("Student");
+query.orderByDescending("gpa");
+findAsync(query).onSuccessTask(new Continuation<List<ParseObject>, Task<ParseObject>>() {
+  public Task<ParseObject> then(Task<List<ParseObject>> task) throws Exception {
+    List<ParseObject> students = task.getResult();
+    students.get(0).put("valedictorian", true);
+    return saveAsync(students.get(0));
+  }
+}).onSuccessTask(new Continuation<ParseObject, Task<List<ParseObject>>>() {
+  public Task<List<ParseObject>> then(Task<ParseObject> task) throws Exception{
+    ParseObject valedictorian = task.getResult();
+    return findAsync(query);
+  }
+}).onSuccessTask(new Continuation<List<ParseObject>, Task<ParseObject>>() {
+  public Task<ParseObject> then(Task<List<ParseObject>> task) throws Exception {
+    List<ParseObject> students = task.getResult();
+    students.get(1).put("salutatorian", true);
+    return saveAsync(students.get(1));
+  }
+}).onSuccess(new Continuation<ParseObject, Void>() {
+  public Void then(Task<ParseObject> task) throws Exception {
+    // Everything is done!
+    return null;
+  }
+});
+```
+
 - [Routable](https://github.com/usepropeller/routable-android) - routes.rb for Android
 
 ```java
