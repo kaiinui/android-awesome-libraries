@@ -81,6 +81,22 @@ public class MyCustomView extends FrameLayout {
 }
 ```
 
+- [AndroidAnnotations](http://androidannotations.org/)
+
+```java
+@Background
+void someBackgroundWork(String aParam, long anotherParam) {
+    [...]
+}
+```
+
+```java
+@UiThread
+void doInUiThread(String aParam, long anotherParam) {
+    [...]
+}
+```
+
 Network
 ---
 
