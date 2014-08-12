@@ -552,9 +552,11 @@ adapter.notifyDataSetChanged();
 animator.animate();
 ```
 
-- [HoloGraphLibrary](https://bitbucket.org/danielnadeau/holographlibrary/wiki/Home)
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 
-![](https://lh3.googleusercontent.com/-Pr5nzXngxZo/US0_RKH9DGI/AAAAAAAAS1s/an4cS3Nr4qY/s844/13+-+1)
+![](https://camo.githubusercontent.com/8d9d4fac26ce95d5abf63d59c81b5a7edd8fc71d/68747470733a2f2f7261772e6769746875622e636f6d2f5068696c4a61792f4d5043686172742f6d61737465722f73637265656e73686f74732f626172636861727432645f6d756c74695f646174617365745f64617465312e706e67)
+
+![](https://camo.githubusercontent.com/60bd0d71462ad577df775b956944b191e939728a/68747470733a2f2f7261772e6769746875622e636f6d2f5068696c4a61792f4d50416e64726f696443686172742f6d61737465722f73637265656e73686f74732f70696563686172745f686f6c657261646975735f73706163652e706e67)
 
 Album handling
 ---
