@@ -250,7 +250,7 @@ public void onEvent(AnyEventType event) {
 Utility
 ---
 
-- [Routable](https://github.com/usepropeller/routable-android) - routes.rb
+- [Routable](https://github.com/usepropeller/routable-android) - routes.rb for Android
 
 ```java
 Router.sharedRouter().map("users/:id", UserActivity.class);
@@ -260,6 +260,15 @@ Router.sharedRouter().map("users/new/:name/:zip", NewUserActivity.class);
 ```java
 Router.sharedRouter().open("users/16");
 Router.sharedRouter().open("users/new/Clay/94303");
+```
+
+- [GAlette](https://github.com/uPhyca/GAlette) - Tracking events with Google Analytics by annotations
+
+```java
+@SendEvent(category = "HelloWorld", action = "sayHello", label="%1$s")
+String sayHello (String name) {
+  return format("Hello, %s.", name);
+}
 ```
 
 - [Paraphrase](https://github.com/JakeWharton/paraphrase) - compile-safe format string builders.
