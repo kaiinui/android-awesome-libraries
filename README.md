@@ -771,8 +771,8 @@ Just fork & edit & send pull-request on GitHub!
 ####Policy
 
 1. Official Website over GitHub Repository for links.
-2. Should put codes that reflects the library.
-3. For UI libraries, put demonstorations.
+2. Should put codes which reflects the library.
+3. For UI libraries, put demonstorations (AniGIF, PNG, Movies).
 
 And I am considering to ...
 
@@ -783,3 +783,7 @@ And I am considering to ...
 ####Maintainer
 
 kaiinui (https://github.com/kaiinui)
+
+####and...
+
+I am building a website to browse awesome libraries! https://github.com/kaiinui/droidgems
