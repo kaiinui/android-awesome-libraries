@@ -395,6 +395,24 @@ public void onSendClick() {
 }
 ```
 
+- [Android Saripaar](https://github.com/ragunathjawahar/android-saripaar) - UI Validation Library
+
+```java
+@Required(order = 1)
+@Email(order = 2)
+private EditText emailEditText;
+
+@Password(order = 3)
+@TextRule(order = 4, minLength = 6, message = "Enter at least 6 characters.")
+private EditText passwordEditText;
+
+@ConfirmPassword(order = 5)
+private EditText confirmPasswordEditText;
+
+@Checked(order = 6, message = "You must agree to the terms.")
+private CheckBox iAgreeCheckBox;
+```
+
 - [ObjectCache](https://github.com/iainconnor/ObjectCache)
 
 ```java
