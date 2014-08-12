@@ -20,6 +20,7 @@ Index
 - [Album Handling](https://github.com/kaiinui/android-awesome-libraries#album-handling)
 - [Rx](https://github.com/kaiinui/android-awesome-libraries#rx)
 - [Promise](https://github.com/kaiinui/android-awesome-libraries#promise)
+- [Security](https://github.com/kaiinui/android-awesome-libraries#security)
 - [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries#debug-utility)
 - [Gradle Plugin](https://github.com/kaiinui/android-awesome-libraries#gradle-plugin)
 - [Testing](https://github.com/kaiinui/android-awesome-libraries#testing)
@@ -606,6 +607,11 @@ promise.done(new DoneCallback() {
   }
 });
 ```
+
+Security
+---
+
+- [Conceal](http://facebook.github.io/conceal/) - Fast cryptographic operations for Android by Facebook
 
 Debug Utility
 ---
