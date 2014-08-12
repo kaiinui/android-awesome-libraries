@@ -12,6 +12,7 @@ Index
 - [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries#network-image-handling)
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries#event-pubsub)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries#utility)
+- [Cloud Handling]()
 - [DI](https://github.com/kaiinui/android-awesome-libraries#di)
 - [View Model Binding](https://github.com/kaiinui/android-awesome-libraries#view-model-binding)
 - [UI](https://github.com/kaiinui/android-awesome-libraries#ui)
@@ -334,6 +335,23 @@ mGPUImage = new GPUImage(this);
 mGPUImage.setGLSurfaceView((GLSurfaceView) findViewById(R.id.surfaceView));
 mGPUImage.setImage(imageUri); // this loads image on the current thread, should be run in a thread
 mGPUImage.setFilter(new GPUImageSepiaFilter());
+```
+
+Cloud Handling
+---
+
+- [Driven](https://github.com/bingzer/driven) - A unified API calls for different cloud storage providers
+
+```java
+StorageProvider provider = new Dropbox();
+provider.authenticate(credentials);
+
+// list all files in the root
+provider.listAsync(new Task<List<DrivenFile>>(){
+  public void onComplete(List<DrivenFile> files){
+    ...
+  }
+});
 ```
 
 DI
