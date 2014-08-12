@@ -620,6 +620,8 @@ public String getName(String first, String last) {
 }
 ```
 
+- [Timber](https://github.com/JakeWharton/timber) - A logger.
+
 - [scalpel](https://github.com/JakeWharton/scalpel)
 
 ![](https://github.com/JakeWharton/scalpel/raw/master/images/sample.gif)
