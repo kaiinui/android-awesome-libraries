@@ -11,6 +11,7 @@ Index
 - [Database](https://github.com/kaiinui/android-awesome-libraries#database)
 - [Network Image Handling](https://github.com/kaiinui/android-awesome-libraries#network-image-handling)
 - [Event Pub/Sub](https://github.com/kaiinui/android-awesome-libraries#event-pubsub)
+- [Gesture](https://github.com/kaiinui/android-awesome-libraries#gesture)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries#utility)
 - [Cloud Handling](https://github.com/kaiinui/android-awesome-libraries#cloud-handling)
 - [DI](https://github.com/kaiinui/android-awesome-libraries#di)
@@ -263,6 +264,47 @@ eventBus.register(this);
 public void onEvent(AnyEventType event) {
     // TODO: React to the event!
 }
+```
+
+Gesture
+---
+
+- [airy](https://github.com/mirasmithy/airy) - Handle gestures much easier.
+
+```java
+Airy mAiry = new Airy(mActivity) {
+    @Override
+    public void onGesture(View pView, int pGestureId) {
+        switch (pGestureId) {
+            case Airy.TAP:
+                break;
+            case Airy.SWIPE_UP:
+                break;
+            case Airy.SWIPE_DOWN:
+                break;
+            case Airy.SWIPE_LEFT:
+                break;
+            case Airy.SWIPE_RIGHT:
+                break;
+            case Airy.TWO_FINGER_TAP:
+                break;
+            case Airy.TWO_FINGER_SWIPE_UP:
+                break;
+            case Airy.TWO_FINGER_SWIPE_DOWN:
+                break;
+            case Airy.TWO_FINGER_SWIPE_LEFT:
+                break;
+            case Airy.TWO_FINGER_SWIPE_RIGHT:
+                break;
+            case Airy.TWO_FINGER_PINCH_IN:
+                break;
+            case Airy.TWO_FINGER_PINCH_OUT:
+                break;
+        }
+    }
+};
+
+mRelativeLayout.setOnTouchListener(mAiry);
 ```
 
 Utility
