@@ -19,6 +19,7 @@ Index
 - [Rx](https://github.com/kaiinui/android-awesome-libraries/#rx)
 - [Promise](https://github.com/kaiinui/android-awesome-libraries/#promise)
 - [Debug Utilitiy](https://github.com/kaiinui/android-awesome-libraries/#debug-utility)
+- [Gradle Plugin]()
 - [Testing](https://github.com/kaiinui/android-awesome-libraries/#testing)
 
 Support
@@ -518,6 +519,11 @@ public String getName(String first, String last) {
 - [scalpel](https://github.com/JakeWharton/scalpel)
 
 ![](https://github.com/JakeWharton/scalpel/raw/master/images/sample.gif)
+
+Gradle Plugin
+---
+
+- [Gradle Android AspectJ Plugin](https://github.com/uPhyca/gradle-android-aspectj-plugin)
 
 Testing
 ---
