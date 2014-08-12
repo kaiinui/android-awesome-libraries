@@ -14,6 +14,7 @@ Index
 - [Gesture](https://github.com/kaiinui/android-awesome-libraries#gesture)
 - [Utility](https://github.com/kaiinui/android-awesome-libraries#utility)
 - [Cloud Handling](https://github.com/kaiinui/android-awesome-libraries#cloud-handling)
+- [Social Network Handling](https://github.com/kaiinui/android-awesome-libraries#social-network-handling)
 - [DI](https://github.com/kaiinui/android-awesome-libraries#di)
 - [View Model Binding](https://github.com/kaiinui/android-awesome-libraries#view-model-binding)
 - [UI](https://github.com/kaiinui/android-awesome-libraries#ui)
@@ -425,6 +426,25 @@ provider.listAsync(new Task<List<DrivenFile>>(){
     ...
   }
 });
+```
+
+Social Network Handling
+---
+
+- [AndroidSocialNetworks](https://github.com/antonkrasov/AndroidSocialNetworks) - easy work with Facebook, Twitter, LinkedIn and Google
+
+```java
+mSocialNetworkManager = (SocialNetworkManager) getFragmentManager().findFragmentByTag(SOCIAL_NETWORK_TAG);
+
+if (mSocialNetworkManager == null) {
+    mSocialNetworkManager = SocialNetworkManager.Builder.from(getActivity())
+            .twitter(<< TWITTER  API TOKEN  >>, << TWITTER  API SECRET  >>)
+            .linkedIn(<< LINKED_IN  API TOKEN  >>, << LINKED_IN API TOKEN  >>, "r_basicprofile+rw_nus+r_network+w_messages")
+            .facebook()
+            .googlePlus()
+            .build();
+    getFragmentManager().beginTransaction().add(mSocialNetworkManager, SOCIAL_NETWORK_TAG).commit();
+}
 ```
 
 DI
