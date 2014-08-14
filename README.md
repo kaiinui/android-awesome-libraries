@@ -45,7 +45,7 @@ private void receiveDrawableRes(@DrawableRes int resId) {
 }
 ```
 
-- [retrolabmda](https://github.com/orfjackal/retrolambda) - lambda suppor for android!
+- [gradle-retrolabmda](https://github.com/evant/gradle-retrolambda) - lambda suppor for android!
 
 ```java
 mButton.setOnClickListener((View v) -> {
