@@ -45,7 +45,7 @@ private void receiveDrawableRes(@DrawableRes int resId) {
 }
 ```
 
-- [Retrolabmda](https://github.com/orfjackal/retrolambda) - lambda suppor for android!
+- [retrolabmda](https://github.com/orfjackal/retrolambda) - lambda suppor for android!
 
 ```java
 mButton.setOnClickListener((View v) -> {
@@ -342,7 +342,7 @@ findAsync(query).onSuccessTask(new Continuation<List<ParseObject>, Task<ParseObj
 });
 ```
 
-- [Routable](https://github.com/usepropeller/routable-android) - routes.rb for Android
+- [routable-android](https://github.com/usepropeller/routable-android) - routes.rb for Android
 
 ```java
 Router.sharedRouter().map("users/:id", UserActivity.class);
@@ -352,6 +352,13 @@ Router.sharedRouter().map("users/new/:name/:zip", NewUserActivity.class);
 ```java
 Router.sharedRouter().open("users/16");
 Router.sharedRouter().open("users/new/Clay/94303");
+```
+
+- [android-intents](https://github.com/d-tarasov/android-intents) - A collection of well-known Android intents for most common actions
+
+```java
+Intent intent = IntentUtils.sendEmail(to, subject, body);
+startActivity(Intent.createChooser(intent, "TEST"));
 ```
 
 - [GAlette](https://github.com/uPhyca/GAlette) - Tracking events with Google Analytics by annotations
