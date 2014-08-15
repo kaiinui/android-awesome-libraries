@@ -629,7 +629,7 @@ Subscription sub = Observable.from(1, 2, 3, 4, 5)
 Promise
 ---
 
-- [JDeffered](https://github.com/jdeferred/jdeferred)
+- [JDefferred](https://github.com/jdeferred/jdeferred)
 
 ```java
 Deferred deferred = new DeferredObject();
