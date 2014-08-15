@@ -102,6 +102,12 @@ void doInUiThread(String aParam, long anotherParam) {
 }
 ```
 
+- [HeaderGridView](https://github.com/maurycyw/HeaderGridView) - Header view support for GridView!
+
+```java
+gridView.addHeaderView(View v);
+```
+
 Network
 ---
 
