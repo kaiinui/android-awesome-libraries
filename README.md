@@ -277,43 +277,7 @@ public void onEvent(AnyEventType event) {
 Gesture
 ---
 
-- [airy](https://github.com/mirasmithy/airy) - Handle gestures much easier.
 
-```java
-Airy mAiry = new Airy(mActivity) {
-    @Override
-    public void onGesture(View pView, int pGestureId) {
-        switch (pGestureId) {
-            case Airy.TAP:
-                break;
-            case Airy.SWIPE_UP:
-                break;
-            case Airy.SWIPE_DOWN:
-                break;
-            case Airy.SWIPE_LEFT:
-                break;
-            case Airy.SWIPE_RIGHT:
-                break;
-            case Airy.TWO_FINGER_TAP:
-                break;
-            case Airy.TWO_FINGER_SWIPE_UP:
-                break;
-            case Airy.TWO_FINGER_SWIPE_DOWN:
-                break;
-            case Airy.TWO_FINGER_SWIPE_LEFT:
-                break;
-            case Airy.TWO_FINGER_SWIPE_RIGHT:
-                break;
-            case Airy.TWO_FINGER_PINCH_IN:
-                break;
-            case Airy.TWO_FINGER_PINCH_OUT:
-                break;
-        }
-    }
-};
-
-mRelativeLayout.setOnTouchListener(mAiry);
-```
 
 Utility
 ---
