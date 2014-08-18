@@ -406,6 +406,17 @@ mGPUImage.setImage(imageUri); // this loads image on the current thread, should 
 mGPUImage.setFilter(new GPUImageSepiaFilter());
 ```
 
+- [Amalgam](https://github.com/nohana/Amalgam) - Common codes for Android
+
+```java
+ToastUtils.showOnUiThread(activity, "SOMESTRING", Toast.LENGTH_SHORT);
+```
+
+```java
+isMainThread() // Check if current thread is the main thread.
+```
+
+
 Cloud Handling
 ---
 
