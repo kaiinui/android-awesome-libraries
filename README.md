@@ -662,6 +662,7 @@ Gradle Plugin
 ---
 
 - [Gradle Android AspectJ Plugin](https://github.com/uPhyca/gradle-android-aspectj-plugin)
+- [gradle-android-appiconoverlay](https://github.com/splatte/gradle-android-appiconoverlay)
 
 Testing
 ---
