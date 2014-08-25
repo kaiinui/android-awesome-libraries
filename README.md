@@ -249,18 +249,6 @@ DisplayImageOptions options = new DisplayImageOptions.Builder()
 Event Pub/Sub
 ---
 
-- [Otto](http://square.github.io/otto/)
-
-```java
-bus.post(new AnswerAvailableEvent(42));
-```
-
-```java
-@Subscribe public void answerAvailable(AnswerAvailableEvent event) {
-    // TODO: React to the event somehow!
-}
-```
-
 - [EventBus](https://github.com/greenrobot/EventBus)
 
 ```java
@@ -271,6 +259,18 @@ eventBus.post(event);
 eventBus.register(this);
 public void onEvent(AnyEventType event) {
     // TODO: React to the event!
+}
+```
+
+- [Otto](http://square.github.io/otto/)
+
+```java
+bus.post(new AnswerAvailableEvent(42));
+```
+
+```java
+@Subscribe public void answerAvailable(AnswerAvailableEvent event) {
+    // TODO: React to the event somehow!
 }
 ```
 
