@@ -416,6 +416,16 @@ ToastUtils.showOnUiThread(activity, "SOMESTRING", Toast.LENGTH_SHORT);
 isMainThread() // Check if current thread is the main thread.
 ```
 
+- [Android Checkout](https://github.com/serso/android-checkout) - Android In-App Billing made easy.
+
+```java
+checkout.start();
+// you only need this if this activity starts purchase process
+checkout.createPurchaseFlow(new PurchaseListener());
+// you only need this if this activity needs information about purchases/SKUs
+inventory = checkout.loadInventory();
+inventory.whenLoaded(new InventoryLoadedListener())
+```
 
 Cloud Handling
 ---
