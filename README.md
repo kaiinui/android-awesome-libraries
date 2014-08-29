@@ -277,7 +277,7 @@ bus.post(new AnswerAvailableEvent(42));
 Gesture
 ---
 
-
+- [android-gesture-detectors](https://github.com/Almeros/android-gesture-detectors)
 
 Utility
 ---
