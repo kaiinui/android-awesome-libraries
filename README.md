@@ -427,6 +427,30 @@ inventory = checkout.loadInventory();
 inventory.whenLoaded(new InventoryLoadedListener())
 ```
 
+- [AsyncJobLibrary](https://github.com/Arasthel/AsyncJobLibrary)
+
+```java
+new AsyncJob.AsyncJobBuilder<Boolean>()
+        .doInBackground(new AsyncJob.AsyncAction<Boolean>() {
+            @Override
+            public Boolean doAsync() {
+                // Do some background work
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return true;
+            }
+        })
+        .doWhenFinished(new AsyncJob.AsyncResultAction<Boolean>() {
+            @Override
+            public void onResult(Boolean result) {
+                Toast.makeText(context, "Result was: " + result, Toast.LENGTH_SHORT).show();
+        }
+}).create().start();
+```
+
 Cloud Handling
 ---
 
