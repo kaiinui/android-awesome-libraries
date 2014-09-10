@@ -246,6 +246,12 @@ DisplayImageOptions options = new DisplayImageOptions.Builder()
         .build();
 ```
 
+[Glide](https://github.com/bumptech/glide) - An image loading and caching library for Android focused on smooth scrolling
+
+```java
+Glide.with(this).load("http://goo.gl/h8qOq7").into(imageView);
+```
+
 Event Pub/Sub
 ---
 
