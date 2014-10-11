@@ -108,6 +108,21 @@ void doInUiThread(String aParam, long anotherParam) {
 gridView.addHeaderView(View v);
 ```
 
+- [HeaderFooterGridView](https://github.com/recruit-mp/android-HeaderFooterGridView) - HeaderFooterGridView supports adding header rows and footer rows to GridView
+
+```java
+final HeaderFooterGridView headerFooterGridView = (HeaderFooterGridView) findViewById(R.id.HeaderFooterGridView);
+ 
+HeaderView headerView = new HeaderView(context);
+headerFooterGridView.addHeaderView(headerView);
+ 
+FooterView footerView = new FooterView(context);
+headerFooterGridView.addFooterView(footerView);
+
+mAdapter = new HeaderFooterGridViewAdapter(this);
+headerFooterGridView.setAdapter(mAdapter);
+```
+
 Network
 ---
 
