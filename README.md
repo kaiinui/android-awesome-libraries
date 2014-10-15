@@ -648,6 +648,10 @@ animator.animate();
 
 ![](https://camo.githubusercontent.com/60bd0d71462ad577df775b956944b191e939728a/68747470733a2f2f7261772e6769746875622e636f6d2f5068696c4a61792f4d50416e64726f696443686172742f6d61737465722f73637265656e73686f74732f70696563686172745f686f6c657261646975735f73706163652e706e67)
 
+- [ListViewAnimations](https://github.com/nhaarman/ListViewAnimations) - allows developers to easily add animations to ListView items
+
+![](https://raw.githubusercontent.com/nhaarman/ListViewAnimations/gh-pages/images/dynamiclistview.gif)
+
 Album handling
 ---
 
