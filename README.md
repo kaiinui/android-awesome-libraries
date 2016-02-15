@@ -654,6 +654,11 @@ animator.animate();
 
 ![](https://raw.githubusercontent.com/nhaarman/ListViewAnimations/gh-pages/images/dynamiclistview.gif)
 
+- [EntryScreenManager](https://github.com/kunall17/EntryScreenManager) - Add Intro/Entry/Walkthrough/Info screens to your app!
+
+![](https://raw.githubusercontent.com/kunall17/EntryScreenManager/screenshots/entryscreen.gif)
+
+
 Album handling
 ---
 
